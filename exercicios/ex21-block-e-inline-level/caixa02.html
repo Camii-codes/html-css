@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: rgb(53, 53, 53);
+            padding: 10px;
+            margin: 10px;
+        } 
+
+        nav {
+            background-color: rgb(36, 35, 35);
+            padding: 3px;
+            box-shadow: 5px 3px 4px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(53, 53, 53);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 40px;
+         }
+
+         main > section#assuntos {
+            background-color: gray;
+            color: aliceblue;
+            margin-right: 30px;
+            padding: 1px;
+         }
+
+         article {
+            background-color: gray;
+         }
+
+         article > aside {
+            background-color: rgb(29, 29, 29);
+            color: white;
+         }
+
+         footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+         }
+
+         footer > p {
+            margin: 0;
+        }
+
+         div#bola {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+         }
+
+         div > img {
+            width: 110px;
+         }
+    </style>
+</head>
+<body>
+    <!-- ANTIGAMENTE NO HTML 4, ERA FEITO ASSIM:
+    <div>
+        <div id="cabecalho">
+            <h1>
+                
+            </h1>
+        <div id="menu">
+
+        </div>    
+
+    </div>
+    <div id="conteudo">
+
+    </div>
+    <div id="rodape">
+
+    </div>
+    MAS HOJE EM DIA NO HTML 5, TEMOS AS GROUPING TAGS SEMANTICAS:-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus beatae perferendis veritatis, quas doloribus iusto temporibus? Debitis ullam illo vero quasi voluptate id, fuga provident, magni excepturi, porro quis doloribus corporis! Harum eligendi molestiae facilis possimus saepe dolores ducimus sapiente qui adipisci debitis minima ullam deleniti facere, officia voluptatem earum ipsam recusandae quae amet omnis quia, a id quos architecto! Amet nulla sit accusantium atque rerum deserunt iure magni, quos eligendi laudantium voluptate nemo expedita veniam sequi dolorem recusandae.
+                </p>
+                <aside>
+                    <p>Artigo escrito</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <!--Tranformando DIV em bola-->
+    <div id="bola">
+        <img src="images/cami-pngr.png" alt="cami">
+    </div>
+    
+    <footer>
+        <p>Desenvolvido por Camila</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas personalizadas</title>
+    <style>
+        h1 {
+            /*Ali na cor black vc também pode colocar "transparent" para funcionar caso o navegador não seja compatível.*/
+            border: 9px solid black;
+            padding: 10px;
+           
+            border-image-source: url(borda.png);
+            border-image-slice: 35;
+            border-image-repeat: stretch;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    
+</body>
+</html>
