@@ -37,7 +37,7 @@
 
 <a href="https://camii-codes.github.io/html-css/exercicios/ex017-fontes-medidas-alinhamento/font02.html"> Executar o exercício 17</a>
 
-<a href="https://camii-codes.github.io/html-css/exercicios/ex018-fontes-google-e-externas/font01.html"> Executar o exercício 18</a>
+<a href="https://camii-codes.github.io/html-css/exercicios/ex018-fontes-google-e-externas/font02.html"> Executar o exercício 18</a>
 
 <a href="https://camii-codes.github.io/html-css/exercicios/ex019-seletor-id/seletor01.html"> Executar o exercício 19</a>
 
