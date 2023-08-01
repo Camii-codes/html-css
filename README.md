@@ -15,7 +15,7 @@
 
 <a href="https://camii-codes.github.io/html-css/exercicios/ex006-semantica/index.html"> Executar o exercício 006</a>
   
-<a href="https://camii-codes.github.io/html-css/exercicios/ex007-formatacoes/index.html"> Executar o exercício 007</a>
+<a href="https://camii-codes.github.io/html-css/exercicios/ex007-fomatacoes/index.html"> Executar o exercício 007</a>
 
 <a href="https://camii-codes.github.io/html-css/exercicios/ex008-outros/index.html"> Executar o exercício 008</a>
    
