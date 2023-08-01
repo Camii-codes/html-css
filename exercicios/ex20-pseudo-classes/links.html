@@ -17,6 +17,10 @@
             border-radius: 10px; 
         }
 
+        ul {
+            list-style: none;
+        }
+
         a {
             color: red;
             text-decoration: none;
@@ -43,6 +47,13 @@
         a::after {
             content: ' ⬅️';
         }
+
+        a.link {
+            font-weight: lighter;
+            text-decoration: none;
+            content: none;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -59,7 +70,9 @@
         </a>
     </ul>
 
-    <button>Enviar</button>
+    <button>Enviar</button> <br>
+
+    <a class="link" href="pseudoclasses.html">Página 3</a>
     
 </body>
 </html>
