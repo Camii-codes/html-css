@@ -22,17 +22,21 @@
             text-align: center;
         }
 
+        .color {
+            background-color: gray;
+        }
+
     </style>
 </head>
 <body>
     <h1>Tabela de Matérias</h1>
     <table>
-       <thead>
+       <thead class="color">
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
                 <tr>
                     <th scope="col">Nota 1</th>
                     <th scope="col">Nota 2</th>
@@ -71,8 +75,28 @@
                 <td class="num">0.0</td>
             </tr>
 
+            <tr class="color">
+                <td colspan="4">Média de Exatas</td>
+                <td class="num">0.0</td>
+            </tr>
+            
             <tr>
-                <td colspan="4">Média das exatas</td>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+
+            <tr class="color">
+                <td colspan="4">Média de Humanas</td>
                 <td class="num">0.0</td>
             </tr>
         </tbody>
