@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiconando conteúdos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.container {
+            position: relative;
+            margin: 0px -20px 30px -20px;
+            padding: 20px;
+            padding-bottom: 50%;
+        }
+
+        div.container > iframe {
+            position: absolute;
+
+            top:0;
+            left:0;
+            
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+        <h1>Conteúdos dentro do iframe</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga maxime, quos eveniet cum commodi illum, possimus sint accusantium quaerat quo ea recusandae voluptates, laboriosam perferendis asperiores tenetur sit quas!</p>
+        <h2>Vídeos</h2>
+        <div class="container">
+            <iframe src="https://player.vimeo.com/video/265045525?h=217b87fac0&title=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/265045525">Looking For Something</a> from <a href="https://vimeo.com/cesarpelizer">C&eacute;sar Pelizer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+            </div>
+            <h2>Mapas do Google</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29517853.186804343!2d-49.274643!3d-25.429785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa635a70bdd5cc5f1%3A0x6e32763e6c9480f3!2sCuritiba%20Hostnet!5e0!3m2!1spt-BR!2sbr!4v1693565583926!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h2>Mapas do Waze</h2>
+            <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-22.902449&lon=-43.174591&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+
+            <h2>Google documents</h2>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQSNtvrdwgSJArHIRilw-35Eib9MRure4dh6CVfqtzx09baYvYdAscWU0Aty0jXkBUpnMPMrOOYHkn1/embed?start=true&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</body>
+</html>
