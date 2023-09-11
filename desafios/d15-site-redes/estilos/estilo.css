@@ -28,14 +28,6 @@ main {
     height: 100vh;
 }
 
-main > h1 {
-    font-family: 'Retrowave';
-    font-size: 60px;
-    color: #16076f;
-    text-align: center;
-    padding: 60px;
-}
-
 section#telefone {
     position: absolute;
     top: 50%;
