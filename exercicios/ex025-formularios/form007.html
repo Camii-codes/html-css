@@ -7,7 +7,39 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <label for="iest"></label>
+        <select name="est" id="iest"> 
+            <option value="">----Escolha----</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" placeholder="Seu trabalho">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua Mensagem Aqui"></textarea>
+        </p>
 
         <p>
             <input type="submit" value="Enviar">
