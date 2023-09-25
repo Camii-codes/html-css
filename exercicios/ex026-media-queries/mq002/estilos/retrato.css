@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* Aparelho em pé (portraid) */
+
+body {
+    background-color: lightcoral;
+}
