@@ -27,7 +27,7 @@ Grandes telas: acima de 1200px
     }
     
     body {
-        background-image: url(../images/back-print.jpg); /* Desnecessário pois background não aparace quando imprimi */
+        background-image: url(../images/back-print.jpg); /* Desnecessário pois background não aparece quando imprimi */
     }
 
     main {
